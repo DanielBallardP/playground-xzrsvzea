@@ -10,7 +10,7 @@ public class Main {
 
     // Returns the distance between the two closest numbers.
     static int distClosestNumbers(int[] numbers) {
-        // try to implement it!
+        // Try to implement it. Helper methods for sorting are allowed.
     }
    
     public static void main(String[] args) {
