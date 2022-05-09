@@ -10,14 +10,6 @@ public class Main {
 
     // Returns the distance between the two closest numbers.
     static int distClosestNumbers(int[] numbers) {
-        Arrays.sort(numbers);
-        int dist = numbers[0];
-        for (int i = 1; i < numbers.length; i++) {
-            if ((numbers[i] - numbers[i-1]) < dist) {
-            dist = numbers[i] - numbers[i-1];
-            }
-        }
-        return dist;
         // try to implement it!
     }
    
